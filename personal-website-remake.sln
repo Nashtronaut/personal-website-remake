@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "personal-website-remake", "personal-website-remake\personal-website-remake.esproj", "{76B290AA-1194-403D-9B85-164AEED65658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B290AA-1194-403D-9B85-164AEED65658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B290AA-1194-403D-9B85-164AEED65658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B290AA-1194-403D-9B85-164AEED65658}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{76B290AA-1194-403D-9B85-164AEED65658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B290AA-1194-403D-9B85-164AEED65658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B290AA-1194-403D-9B85-164AEED65658}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEBEB201-2448-40CC-9978-429564813CEC}
+	EndGlobalSection
+EndGlobal
