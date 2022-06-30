@@ -29,10 +29,14 @@ const MainConsolepanel = styled((props) => {
 
     return (
         <Stack>
-            <Box sx={topBarStyles}>
+            <Box sx={topBarStyles}> {/*MAKE FLEX BOX SPACE BETWEEN*/}
                 <Typography mt={0.5} fontFamily={'Hack, monospace'} fontSize={18} color={'white'}>
                     Command Prompt
                 </Typography>
+
+                <Stack direction="row">
+                    {/*BUTTON BUTTON BUTTON*/}
+                </Stack>
             </Box>
             <Paper elevation={15} sx={baseStyles}>
                 <Box sx={windowStyles}>
