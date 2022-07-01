@@ -1,5 +1,6 @@
 import { Box, Paper, Stack, Typography } from '@mui/material'
 import { styled } from "@mui/material/styles";
+import CancelIcon from '@mui/icons-material/Cancel';
 
 const baseStyles = {
     width: '95rem',
@@ -15,7 +16,9 @@ const windowStyles = {
 };
 
 const topBarStyles = {
-    display: 'inline-block',
+    display: 'inline-flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     backgroundColor: '#9499B6',
     height: '2rem',
     width: '93rem',
@@ -29,14 +32,13 @@ const MainConsolepanel = styled((props) => {
 
     return (
         <Stack>
+            
             <Box sx={topBarStyles}> {/*MAKE FLEX BOX SPACE BETWEEN*/}
                 <Typography mt={0.5} fontFamily={'Hack, monospace'} fontSize={18} color={'white'}>
                     Command Prompt
                 </Typography>
 
-                <Stack direction="row">
-                    {/*BUTTON BUTTON BUTTON*/}
-                </Stack>
+                <CancelIcon variant="outlined" sx={{ color: 'white'}}/>
             </Box>
             <Paper elevation={15} sx={baseStyles}>
                 <Box sx={windowStyles}>

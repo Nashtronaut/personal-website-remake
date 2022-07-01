@@ -10,6 +10,51 @@ pre, code {
     font-family: Hack, monospace;
 }
 
+p {
+    margin: 0.3em;
+}
+
+.green-text {
+    color: #00C7EA;
+}
+
+.success-text {
+    color: #3FFF49;
+}
+
+
+.orange-text {
+    color: #E17500;
+}
+
+.pink-text {
+    color: #FF00FF;
+}
+
+.console-button {
+    font-family: Hack, monospace;
+    border: 2px dashed white;
+    background: none;
+    color: #CD4C68;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 1rem;
+}
+
+input:focus {
+    border: none;
+}
+
 /*pre, code {
   font-family: source-code-pro, Hack, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
