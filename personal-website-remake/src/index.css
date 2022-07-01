@@ -42,17 +42,23 @@ p {
 }
 
 
-input {
-    background: none;
+.console-input {
+    background: #9398B5;
     border: none;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
     width: 1rem;
+    padding: 0 0.3rem;
 }
 
-input:focus {
+.console-input:focus {
     border: none;
+    outline: none;
+}
+
+.menu-space {
+    margin-top: 1.8rem;
 }
 
 /*pre, code {

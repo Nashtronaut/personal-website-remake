@@ -1,8 +1,7 @@
 import './App.css';
-import MainMenu from './components/MainMenu'
 import MainConsolePanel from './components/MainConsolePanel'
 import { Box } from '@mui/material';
-import WelcomeSplashPanel from './components/WelcomeSplashPanel';
+import WelcomeMenuScreen from './components/WelcomeMenuScreen';
 
 function App() {
 
@@ -12,7 +11,7 @@ function App() {
 
     return (
         <Box sx={centering}>
-            <MainConsolePanel content={<WelcomeSplashPanel /> }/> 
+            <MainConsolePanel content={WelcomeMenuScreen}/> 
         </Box>
         );
 }

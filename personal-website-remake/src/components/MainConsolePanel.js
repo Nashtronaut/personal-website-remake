@@ -5,7 +5,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 const baseStyles = {
     width: '95rem',
     height: '50rem',
-    backgroundColor: '#1A1B27'
+    backgroundColor: '#1D212E'
 };
 
 const windowStyles = {

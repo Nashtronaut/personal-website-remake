@@ -11,4 +11,7 @@
     <Folder Include="src\components\" />
     <Folder Include="src\pages\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\components\WelcomeMenuScreen.js" />
+  </ItemGroup>
 </Project>
